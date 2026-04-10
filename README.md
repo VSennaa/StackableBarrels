@@ -34,7 +34,7 @@
 
 <h2>🛠️ Receita de Crafting</h2>
 <div align="center">
-  <img src="https://via.placeholder.com/128x128.png?text=Recipe+Image" alt="Recipe Image" width="128">
+  <img src="recipe.png" alt="Recipe Image" width="128">
   <br>
   <i>(Adicione a imagem da sua receita aqui)</i>
 </div>
