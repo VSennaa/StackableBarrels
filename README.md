@@ -1,47 +1,50 @@
 <div align="center">
   <h1>📦 Stackable Barrels</h1>
-  <p><i>Expand your storage limits by stacking barrels vertically!</i></p>
 </div>
 
 <hr>
 
 <h2>📖 Sobre o Mod</h2>
 <p>
-  O <b>Stackable Barrels</b> é um mod para Minecraft (Fabric 1.20.6) que permite empilhar barris verticalmente para criar silos de armazenamento. 
-  Ao abrir qualquer barril de uma pilha, você terá acesso a um <b>inventário combinado</b> contendo todos os itens de todos os barris conectados, 
-  eliminando a necessidade de abrir cada barril individualmente.
+  O <b>Stackable Barrels</b> é um mod para Minecraft (Fabric 1.20.6) que permite empilhar barris verticalmente para criar verdadeiros silos de armazenamento.
+  Ao abrir qualquer barril da pilha, você acessa um <b>inventário unificado</b>, contendo todos os itens dos barris conectados, sem precisar abrir individualmente
 </p>
 
-<h2>🚀 Funcionalidades Principais</h2>
+<h2>Funcionalidades</h2>
 <ul>
-  <li><b>Empilhamento Infinito:</b> Coloque barris uns sobre os outros para expandir a capacidade.</li>
-  <li><b>Interface Dinâmica:</b> Uma única tela com barra de rolagem que se adapta ao tamanho total da torre.</li>
-  <li><b>Sistema de Busca Avançado:</b>
+  <li><b>Empilhamento Vertical:</b> Expanda seu armazenamento simplesmente empilhando barris.</li>
+  <li><b>Inventário Unificado:</b> Todos os barris funcionam como um único container.</li>
+  <li><b>Interface com Scroll:</b> UI adaptável ao tamanho da pilha.</li>
+  <li><b>Busca Avançada:</b>
     <ul>
-      <li>Pesquisa por nome do item.</li>
-      <li>Filtro por Mod: Use <code>@modid</code> (ex: <code>@minecraft</code>).</li>
-      <li>Filtro por Tag: Use <code>#tag</code> (ex: <code>#logs</code>).</li>
+      <li>Por nome do item</li>
+      <li>Por mod: <code>@modid</code></li>
+      <li>Por tag: <code>#tag</code></li>
     </ul>
   </li>
-  <li><b>Compatibilidade Técnica:</b>
+  <li><b>Compatível com Automação:</b>
     <ul>
-      <li>Implementação de <code>SidedInventory</code> para suporte nativo a Funis (Hoppers).</li>
-      <li>Integração com <code>Fabric Transfer API</code> para compatibilidade com mods de logística.</li>
+      <li>Suporte a Hoppers (<code>SidedInventory</code>)</li>
+      <li>Integração com Fabric Transfer API</li>
     </ul>
   </li>
-  <li><b>Contador de Ocupação:</b> Visualize rapidamente quantos slots estão preenchidos no total.</li>
+  <li><b>Contador de Slots:</b> Visualização rápida de ocupação total.</li>
 </ul>
+
+<h2>Demonstração</h2>
+<div align="center">
+  <img src="stacked.png" width="300">
+  <img src="search.png" width="300">
+</div>
 
 <h2>🛠️ Receita de Crafting</h2>
 <div align="center">
-  <img src="recipe.png" alt="Recipe Image" width="128">
-  <br>
-  <i>(Adicione a imagem da sua receita aqui)</i>
+  <img src="recipe.png" alt="Recipe">
 </div>
 
 <h2>💻 Detalhes Técnicos</h2>
 <ul>
-  <li><b>Versão do Minecraft:</b> 1.20.6</li>
+  <li><b>Minecraft:</b> 1.20.6</li>
   <li><b>Loader:</b> Fabric</li>
   <li><b>Linguagem:</b> Java 21</li>
 </ul>
@@ -49,7 +52,5 @@
 <hr>
 
 <div align="center">
-  <p>
-    <i>Este código foi parcialmente desenvolvido e revisado por <b>Inteligência Artificial</b>.</i>
-  </p>
+  <p><i>Projeto desenvolvido com auxílio de Inteligência Artificial.</i></p>
 </div>
